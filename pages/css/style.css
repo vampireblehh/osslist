@@ -9,9 +9,18 @@ header {
     margin: 10px;
     border-radius: 35px;
     padding: 15px;
-
-    
+       
 }
+
+header:hover,footer:hover,main:hover {
+    filter: drop-shadow(0 0 3px var(--mauve)) drop-shadow(0 0 7px var(--mauve));
+    transition: filter 0.3s ease-in-out;
+}
+header,footer,main{
+    filter: drop-shadow(0 0 0px var(--mauve)) drop-shadow(0 0 0px var(--mauve));
+    transition: filter 0.3s ease-in-out;
+}
+
 
 header p {
     margin: 0;
@@ -27,6 +36,7 @@ main {
     margin: 0 auto;
 
     border-radius: 15px;
+    
 
     margin-top: 15px;
     margin-bottom: 15px;
