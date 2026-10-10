@@ -1,0 +1,83 @@
+body {
+    background-color: var(--base);
+    font-family: JetbrainsMono NF;
+    margin: 0;
+}
+
+header {
+    background-color: var(--surface);
+    margin: 10px;
+    border-radius: 35px;
+    padding: 15px;
+
+    
+}
+
+header p {
+    margin: 0;
+    padding: 5px;
+    color: var(--text);
+    text-align: center;
+    font-size: 25px;
+}
+
+main {
+    background: var(--mantle);
+    color: var(--text);
+    margin: 0 auto;
+
+    border-radius: 15px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    min-width: 25rem;
+    max-width: 95rem;
+    padding: 0;
+    padding-top: 0.5rem;
+    margin-bottom: 1em;
+    padding: 10px;
+
+    font-family: Darumadrop One;
+}
+
+.fx {
+    background-image: url(../assets/fx.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+.onions {
+    background-image: url(../assets/angel.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+section {
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--mauve);
+}
+
+
+
+
+
+footer {
+    margin: 0;
+    color: var(--text);
+    background-color: var(--surface);
+    padding: 5px;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}

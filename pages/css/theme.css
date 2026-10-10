@@ -1,0 +1,30 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');*/
+@import url(https://fonts.bunny.net/css?family=darumadrop-one:400|jetbrains-mono:800);
+
+:root {
+    --mauve: #cba6f7;
+    --blue: #89b4fa;
+    --red: #f38ba8;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --sky: #89dceb;
+    --saphire: #74c7ec;
+    --peach: #fab387;
+    --maroon: #eba0ac;
+    --pink: #f5c2e7;
+    --flamingo: #f2cdcd;
+    --rosewater: #f5e0dc;
+    --text: #cdd6f4;
+    --lavender: #b4befe;
+    --mantle: #181825;
+    --base: #11111b;
+    --surface: #313244;
+    --surface1: #45475a;
+    --surface2: #585b70;
+    --overlay: #6c7086;
+    --overlay1: #7f849c;
+    --overlay2: #9399b2;
+    --subtext: #a6adc8;
+    --subtext1: #bac2de;
+}
